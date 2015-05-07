@@ -1,0 +1,1 @@
+{"name":"Free life :)","operatorname":"life :)","payroll":"35 rub","callprices":["outnetwork \u003d 0.80 rub","landlines \u003d 0.80 rub","withinthenetwork \u003d 0.00 rub"],"smsprices":"0.25 rub","parameters":["favoritenumber \u003d 15 rub","billing \u003d per minute","connectionfee \u003d 30 rub"]}

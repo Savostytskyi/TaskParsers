@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<tariffs>
+		<tariff id="1">
+			<name>Ultra</name>
+			<operatorname>MTS</operatorname>
+			<payroll>40 rub</payroll>
+			<callprices>
+				<withinthenetwork>0.00 rub</withinthenetwork>
+				<outnetwork>0.50 rub</outnetwork>
+				<landlines>1.20 rub</landlines>
+			</callprices>
+			<smsprice>0.30 rub</smsprice>
+			<parameters>
+				<favoritenumber>10 rub</favoritenumber>
+				<billing>per minute</billing>
+				<connectionfee>20 rub</connectionfee> 
+			</parameters>
+		</tariff>
+		
+		<tariff id="2">
+			<name>Ultra VIP 3G</name>
+			<operatorname>MTS</operatorname>
+			<payroll>50 rub</payroll>
+			<callprices>
+				<withinthenetwork>0.20 rub</withinthenetwork>
+				<outnetwork>0.60 rub</outnetwork>
+				<landlines>0.70 rub</landlines>
+			</callprices>
+			<smsprice>0.05 rub</smsprice>
+			<parameters>
+				<favoritenumber>15 rub</favoritenumber>
+				<billing>per minute</billing>
+				<connectionfee>10 rub</connectionfee> 
+			</parameters>
+		</tariff>
+		
+		<tariff id="3">
+			<name>Free country</name>
+			<operatorname>Kyivstar</operatorname>
+			<payroll>0 rub</payroll>
+			<callprices>
+				<withinthenetwork>0.00 rub</withinthenetwork>
+				<outnetwork>0.00 rub</outnetwork>
+				<landlines>1.70 rub</landlines>
+			</callprices>
+			<smsprice>0.20 rub</smsprice>
+			<parameters>
+				<favoritenumber>0 rub</favoritenumber>
+				<billing>per minute</billing>
+				<connectionfee>10 rub</connectionfee> 
+			</parameters>
+		</tariff>
+		
+		<tariff id="4">
+			<name>Kyivstar comfort 500</name>
+			<operatorname>Kyivstar</operatorname>
+			<payroll>15 rub</payroll>
+			<callprices>
+				<withinthenetwork>0.10 rub</withinthenetwork>
+				<outnetwork>0.60 rub</outnetwork>
+				<landlines>1.00 rub</landlines>
+			</callprices>
+			<smsprice>0.10 rub</smsprice>
+			<parameters>
+				<favoritenumber>10 rub</favoritenumber>
+				<billing>per minute</billing>
+				<connectionfee>15 rub</connectionfee> 
+			</parameters>
+		</tariff>
+		
+		<tariff id="5">
+			<name>Free life :)</name>
+			<operatorname>life :)</operatorname>
+			<payroll>35 rub</payroll>
+			<callprices>
+				<withinthenetwork>0.00 rub</withinthenetwork>
+				<outnetwork>0.80 rub</outnetwork>
+				<landlines>0.80 rub</landlines>
+			</callprices>
+			<smsprice>0.25 rub</smsprice>
+			<parameters>
+				<favoritenumber>15 rub</favoritenumber>
+				<billing>per minute</billing>
+				<connectionfee>30 rub</connectionfee> 
+			</parameters>
+		</tariff>
+	</tariffs>

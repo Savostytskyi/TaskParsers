@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/jaxb-core.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/jaxb-impl-2.1.12.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/jaxb-jxc.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/jaxen-1.1.6.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/jdom-2.0.6-contrib.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/jdom-2.0.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/jdom-2.0.6-junit.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/jdom-2.0.6-sources.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/java-json.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/gson-2.2.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/WorkSpace/ParserTask/lib/gson-2.2.4-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
