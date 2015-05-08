@@ -7,10 +7,10 @@ public class Runner {
 		TariffsJSONUnpars unpars = new TariffsJSONUnpars();
 		System.out.println(unpars.unpars());
 		
-		System.out.println(TariffBuilderFactory.createTariffBuilder("DOM"));
-		System.out.println(TariffBuilderFactory.createTariffBuilder("JDOM"));
-		System.out.println(TariffBuilderFactory.createTariffBuilder("SAX"));
-		System.out.println(TariffBuilderFactory.createTariffBuilder("JAXB"));
+		//System.out.println(TariffBuilderFactory.createTariffBuilder("DOM"));
+		//System.out.println(TariffBuilderFactory.createTariffBuilder("JDOM"));
+		//System.out.println(TariffBuilderFactory.createTariffBuilder("JAXB"));
+				System.out.println(TariffBuilderFactory.createTariffBuilder("SAX"));
 
 		ArrayList<Tariffs> unp = new ArrayList<Tariffs>();
 		unp = unpars.unpars();
