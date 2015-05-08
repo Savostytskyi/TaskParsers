@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement
-public class Tariffs {
+public class Tariffs implements Comparable {
 
 	private String name;
 	private String operatorname;
@@ -67,6 +67,28 @@ public class Tariffs {
 	public void setParameters(ArrayList<String> parameters) {
 		this.parameters = parameters;
 	}
+	
+	
+	@Override
+	public int compareTo(Object obj) {
+		Tariffs tmp = (Tariffs)obj;
+		String[] temp = tmp.payroll.split(("\\s+"));
+		String[] pric = this.payroll.split(("\\s+"));
+		    if(Integer.parseInt(pric[0]) < Integer.parseInt(temp[0]))
+		    {
+		     
+		      return -1;
+		    }   
+		    else if(Integer.parseInt(pric[0]) > Integer.parseInt(temp[0]))
+		    {
+		     
+		      return 1;
+		    }
+		   
+		    return 0;  
+      
+  }
+	
 	
 	@Override
 	public String toString() {

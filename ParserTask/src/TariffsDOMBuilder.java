@@ -8,6 +8,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import java.io.File; 
 import java.util.ArrayList;
+import java.util.Collections;
 	
 public class TariffsDOMBuilder extends AbstractTariffBuilder {
 
@@ -57,7 +58,8 @@ public class TariffsDOMBuilder extends AbstractTariffBuilder {
 	        {
 	            System.out.println(e.getLocalizedMessage());
 	            e.printStackTrace();
-	        }		
+	        }	
+		 Collections.sort(tariffs);
 		return tariffs;
 	}
 	

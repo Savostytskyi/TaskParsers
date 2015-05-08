@@ -13,20 +13,31 @@ public class TariffsJAXBBuilder extends AbstractTariffBuilder {
 	@Override
 	public ArrayList xmlDocumentParser() {
 		System.out.println("JAXB parser:");
-		 try {
-			 
-				File file = new File("jaxbTariff.xml");
-				JAXBContext jaxbContext = JAXBContext.newInstance(Tariffs.class);
-		 
-				Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-				Tariffs tarif = (Tariffs) jaxbUnmarshaller.unmarshal(file);
-				System.out.println(tarif);
-		 
-			  } catch (JAXBException e) {
-				e.printStackTrace();
-			  }
+		 try
+	        {
+	            File file = new File("jaxbTariff.xml");
+	            JAXBContext jaxbContext = JAXBContext.newInstance(Tariffs.class);
+	 
+	            Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+	              Tariffs tarr = (Tariffs)jaxbUnmarshaller.unmarshal(file);
 
+	              
+	            Tariffs t = new Tariffs();
+	            List<String> callprices = new ArrayList<String>();
+             List<String> parameters = new ArrayList<String>();
+	            t.setName(tarr.getName());
+	            t.setOperatorname(tarr.getOperatorname());
+	            t.setPayroll(tarr.getPayroll());
+	            t.setSmsprices(tarr.getSmsprices());
 
-	return null;
+	            tariffs.add(t);
+
+	        }
+	        catch (JAXBException jaxbe)
+	        {
+	            System.out.println(jaxbe.getLocalizedMessage());
+	            jaxbe.printStackTrace();
+	        }
+	return tariffs;
 }
 }

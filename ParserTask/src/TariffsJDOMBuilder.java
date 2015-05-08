@@ -1,8 +1,12 @@
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
  
+
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -52,6 +56,7 @@ public class TariffsJDOMBuilder extends AbstractTariffBuilder {
         } catch (Exception e) {
             e.printStackTrace();
         }
+       Collections.sort(tariffs);
  return tariffs;
     }
 

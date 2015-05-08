@@ -1,8 +1,11 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
  
@@ -167,6 +170,7 @@ public class TariffsSAXBuilder extends AbstractTariffBuilder{
            System.out.println(ex.getLocalizedMessage());
             ex.printStackTrace();
         }
+        Collections.sort(tariffs);
     	return tariffs;
     }
 	}

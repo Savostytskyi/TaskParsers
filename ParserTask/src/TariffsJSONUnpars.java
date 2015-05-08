@@ -3,6 +3,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 
@@ -76,7 +77,7 @@ Iterator i = tariff.iterator();
 		} catch (NullPointerException ex) {
 			ex.printStackTrace();
 		}
-	
+	Collections.sort(tariffs);
 return tariffs;
 	}
 
